@@ -4,10 +4,7 @@ Engenharia &amp; Infraestrutura de Redes | Projeto prático de LAN corporativa c
 ## 👥 Integrantes do Grupo
 * [Brenda Sousa Costa]
 * [Maria Vitória Pereira dos Santos]
-* [Nome do Integrante 3]
-* [Nome do Integrante 4]
-* [Nome do Integrante 5]
-* [Nome do Integrante 6]
+* [Anna Gabriela Dimas Furtado]
 
 ---
 
