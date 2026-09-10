@@ -100,3 +100,9 @@ Os seguintes comandos do Cisco IOS foram utilizados para auditar e verificar o e
 3. Abra qualquer estação final (PC ou Laptop) e mude a configuração de IP para **DHCP**. Confirme o recebimento do IP dinâmico da respectiva VLAN.
 4. Para validar o roteamento, abra o **Command Prompt** em um PC da VLAN 10 e execute `ping 192.168.30.100`.
 5. Para validar a ACL de segurança, abra o **Command Prompt** em um PC da VLAN 40 e execute `ping 192.168.30.100` (o tráfego deve ser bloqueado).
+
+---
+
+## ✅ Conclusão
+
+O projeto demonstra a implementação de uma infraestrutura LAN corporativa segmentada por VLANs, com roteamento Inter-VLAN, agregação de links via LACP, distribuição dinâmica de endereços por DHCP e aplicação de ACLs para controle do tráfego entre departamentos. Os testes realizados no Cisco Packet Tracer comprovam o funcionamento dos principais serviços e mecanismos de segurança da rede.
