@@ -1,8 +1,6 @@
 # Portfólio Prático de Infraestrutura de Redes LAN Corporativas com Simulação em Cisco Packet Tracer  - InovaTech Soluções!
 Engenharia &amp; Infraestrutura de Redes | Projeto prático de LAN corporativa com alta disponibilidade (LACP/STP), segmentação por VLANs e roteamento Layer 3 no Cisco Packet Tracer. 🌐⚡
 
-# Projeto Prático: Infraestrutura de Rede LAN Corporativa - InovaTech Soluções
-
 ## 👥 Integrantes do Grupo
 * [Brenda Sousa Costa]
 * [Maria Vitória Pereira dos Santos]
