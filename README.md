@@ -66,7 +66,7 @@ Os seguintes comandos do Cisco IOS foram utilizados para auditar e verificar o e
 ### 1. Automação DHCP
 *Confirmação do recebimento dinâmico de endereçamento IP nas estações de trabalho finais:*
 
-<img width="769" height="706" alt="Captura de tela 2026-09-10 160807" src="https://github.com/user-attachments/assets/b55552d7-5dc3-4c69-b698-7d8f177d6703" />
+<img width="943" height="708" alt="Captura de tela 2026-09-10 161008" src="https://github.com/user-attachments/assets/9ddb6dbb-7d2b-453f-b0a6-ab19448f9414" />
 
 ### 2. Saídas dos Comandos de Auditoria
 * **`show vlan brief`**  
