@@ -5,7 +5,9 @@ Engenharia &amp; Infraestrutura de Redes | Projeto prático de LAN corporativa c
 * [Brenda Sousa Costa]
 * [Maria Vitória Pereira dos Santos]
 * [Anna Gabriela Dimas Furtado]
-
+* [Thallys Maycon de Jesus Silva]
+* [Nikoly Karoline De Paula Pereira]
+* [
 ---
 
 ## 🏢 Cenário da Empresa
