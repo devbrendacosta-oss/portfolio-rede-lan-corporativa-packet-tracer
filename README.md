@@ -92,7 +92,6 @@ Os seguintes comandos do Cisco IOS foram utilizados para auditar e verificar o e
 
  <img width="740" height="687" alt="Captura de tela 2026-09-10 161608" src="https://github.com/user-attachments/assets/c33c84ab-75ff-4a2a-9528-5433a234a776" />
 
----
 
 ## 🎥 Vídeo de Apresentação do Projeto
 
