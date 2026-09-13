@@ -2,12 +2,12 @@
 Engenharia &amp; Infraestrutura de Redes | Projeto prático de LAN corporativa com alta disponibilidade (LACP/STP), segmentação por VLANs e roteamento Layer 3 no Cisco Packet Tracer. 🌐⚡
 
 ## 👥 Integrantes do Grupo
-* Brenda Sousa Costa
-* Maria Vitória Pereira dos Santos
 * Anna Gabriela Dimas Furtado
-* Thallys Maycon de Jesus Silva
+* Brenda Sousa Costa 
 * Nikoly Karoline De Paula Pereira
+* Maria Vitória Pereira dos Santos 
 * Matheus Souza de Jesus
+* Thallys Maycon de Jesus Silva 
 
 ---
 
