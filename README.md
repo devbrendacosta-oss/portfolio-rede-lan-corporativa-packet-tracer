@@ -16,6 +16,12 @@ A empresa **InovaTech Soluções** modernizou sua infraestrutura de rede local (
 
 ---
 
+## 🎥 Vídeo de Apresentação do Projeto
+
+https://youtu.be/o-55s1lKCqI
+
+---
+
 ## 🌐 Topologia da Rede
 Abaixo está a representação visual da topologia lógica implementada no Cisco Packet Tracer, contendo os switches de Core, Acesso, servidores do Data Center e estações finais.
 
@@ -91,11 +97,6 @@ Os seguintes comandos do Cisco IOS foram utilizados para auditar e verificar o e
 * **Isolamento de Dados Sensíveis por ACL (VLAN 40 → VLAN 30):**  
 
  <img width="740" height="687" alt="Captura de tela 2026-09-10 161608" src="https://github.com/user-attachments/assets/c33c84ab-75ff-4a2a-9528-5433a234a776" />
-
-
-## 🎥 Vídeo de Apresentação do Projeto
-
-https://youtu.be/o-55s1lKCqI
 
 ---
 
