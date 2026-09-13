@@ -94,6 +94,11 @@ Os seguintes comandos do Cisco IOS foram utilizados para auditar e verificar o e
 
 ---
 
+## 🎥 Vídeo de Apresentação do Projeto
+↳  https://youtu.be/o-55s1lKCqI
+
+---
+
 ## 🧪 Guia Passo a Passo para Execução dos Testes
 
 1. Baixe o arquivo `.pkt` contido neste repositório e abra no **Cisco Packet Tracer**.
