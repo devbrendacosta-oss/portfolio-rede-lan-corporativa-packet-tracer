@@ -95,7 +95,8 @@ Os seguintes comandos do Cisco IOS foram utilizados para auditar e verificar o e
 ---
 
 ## 🎥 Vídeo de Apresentação do Projeto
-↳  https://youtu.be/o-55s1lKCqI
+
+https://youtu.be/o-55s1lKCqI
 
 ---
 
