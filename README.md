@@ -1,3 +1,5 @@
+<p align="center"> <img src="https://media.giphy.com/media/l41YvpiA9uMWw5AMU/giphy.gif"/> <h1 align="center"> Simulação de conexão de redes </h1> <p align="center"> SSC0540 - Redes de Computadores, ICMC - USP.</p> </p>
+
 # Portfólio Prático de Infraestrutura de Redes LAN Corporativas com Simulação em Cisco Packet Tracer
 
 Projeto da disciplina de Engenharia e Infraestrutura de Redes — Cisco Packet Tracer.
