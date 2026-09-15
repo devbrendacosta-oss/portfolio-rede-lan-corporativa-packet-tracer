@@ -1,4 +1,6 @@
 <p align="center"> <img src="https://media.giphy.com/media/l41YvpiA9uMWw5AMU/giphy.gif"/> 
+
+
 # Portfólio Prático de Infraestrutura de Redes LAN Corporativas com Simulação em Cisco Packet Tracer
 
 Projeto da disciplina de Engenharia e Infraestrutura de Redes — Cisco Packet Tracer.
