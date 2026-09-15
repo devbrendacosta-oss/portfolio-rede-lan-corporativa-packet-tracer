@@ -33,6 +33,15 @@ Representação da topologia lógica implementada no Cisco Packet Tracer, conten
 
 <img width="1069" height="710" alt="Topologia da rede" src="https://github.com/user-attachments/assets/e8d334c3-8851-4950-a337-e92f0216d3cf" />
 
+ * Switches Layer 3 (Core): 2 unidades (roteamento central e gerenciamento de VLANs)
+ * Switches Layer 2 (Acesso): 4 unidades (conexão das estações de trabalho por andar/setor)
+ * Servidores Locais: 3 unidades
+ * 1x Servidor de Banco de Dados
+ * 1x Servidor de Arquivos
+ * 1x Servidor DHCP/DNS corporativo
+ * Dispositivos Finais: 30 a 40 unidades (estação de trabalho fixas/PCs e laptops)
+
+
 ## Tabela de Portas e Alocação de VLANs
 
 | Switch de Acesso | Interface / Porta | VLAN Alocada | Função / Departamento |
