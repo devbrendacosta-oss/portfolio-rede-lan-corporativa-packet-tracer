@@ -94,6 +94,8 @@ Comunicação permitida (VLAN 10 → VLAN 30):
 
 <img width="797" height="745" alt="Comunicação permitida VLAN 10 para VLAN 30" src="https://github.com/user-attachments/assets/3ff2fc6f-3722-4982-b40b-b6703972af09" />
 
+<img width="566" height="326" alt="Captura de tela 2026-09-10 014356" src="https://github.com/user-attachments/assets/6d7ebbcb-733d-44a8-8b13-7d2d93b115c0" />
+
 Isolamento de dados sensíveis por ACL (VLAN 40 → VLAN 30):
 
 <img width="740" height="687" alt="Isolamento por ACL VLAN 40 para VLAN 30" src="https://github.com/user-attachments/assets/c33c84ab-75ff-4a2a-9528-5433a234a776" />
