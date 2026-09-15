@@ -13,6 +13,9 @@ Projeto prático de rede LAN corporativa com alta disponibilidade (LACP/STP), se
 - Matheus Souza de Jesus
 - Thallys Maycon de Jesus Silva
 
+## Professor
+Hudson Neves E Silva
+
 ## Cenário da Empresa
 
 A empresa InovaTech Soluções modernizou sua infraestrutura de rede local (LAN) para atender à expansão de suas operações. A topologia foi desenvolvida para suportar alta performance local, resiliência, automação de serviços e segurança no controle de tráfego entre departamentos.
