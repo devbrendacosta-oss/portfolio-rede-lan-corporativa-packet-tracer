@@ -66,6 +66,8 @@ Comandos do Cisco IOS utilizados para auditar e verificar o estado operacional d
 - **Automação DHCP Relay** — Distribuição dinâmica de IPs com apoio de `ip helper-address`.
 - **Segurança Perimetral (ACL)** — Bloqueio de tráfego originado no Atendimento (VLAN 40) direcionado ao Financeiro (VLAN 30).
 
+---
+
 ## Evidências e Validação de Testes
 
 ### Automação DHCP
@@ -74,17 +76,21 @@ Confirmação do recebimento dinâmico de endereçamento IP nas estações de tr
 
 <img width="943" height="708" alt="Confirmação DHCP" src="https://github.com/user-attachments/assets/9ddb6dbb-7d2b-453f-b0a6-ab19448f9414" />
 
+
 ### Saídas dos Comandos de Auditoria
 
 `show vlan brief`
+
 
 <img width="769" height="706" alt="show vlan brief" src="https://github.com/user-attachments/assets/4bd493a1-3552-4b1b-831b-329d9b62826c" />
 
 `show etherchannel summary`
 
+
 <img width="830" height="714" alt="show etherchannel summary" src="https://github.com/user-attachments/assets/ad4defb3-f65b-4b01-9ea1-f951e27d3bdb" />
 
 `show ip route`
+
 
 <img width="837" height="719" alt="show ip route" src="https://github.com/user-attachments/assets/ed6733f5-02e3-45e8-916f-11733b8b310e" />
 
@@ -92,9 +98,12 @@ Confirmação do recebimento dinâmico de endereçamento IP nas estações de tr
 
 Comunicação permitida (VLAN 10 → VLAN 30):
 
+
 <img width="797" height="745" alt="Comunicação permitida VLAN 10 para VLAN 30" src="https://github.com/user-attachments/assets/3ff2fc6f-3722-4982-b40b-b6703972af09" />
 
+
 <img width="566" height="326" alt="Captura de tela 2026-09-10 014356" src="https://github.com/user-attachments/assets/6d7ebbcb-733d-44a8-8b13-7d2d93b115c0" />
+
 
 Isolamento de dados sensíveis por ACL (VLAN 40 → VLAN 30):
 
