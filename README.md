@@ -50,7 +50,7 @@ Esta atividade integrada consolida o aprendizado prático de estruturação, con
 - **Automação DHCP/DNS e Relay** — Distribuição dinâmica de IPs com apoio de `ip helper-address`.
 - **Segurança Perimetral (ACL)** — Bloqueio de tráfego originado no Atendimento (VLAN 40) direcionado ao Financeiro (VLAN 30).
 
-### Itens da infraestrutura
+### Itens da infraestrutura e a Topologia de Rede
 
 - **Switches Layer 3 (Core):** 2 unidades — `MultilayerSwitch0` e `MultilayerSwitch1` (roteamento central, alta disponibilidade e gateway das VLANs)
 - **Switches Layer 2 (Acesso):** 4 unidades — `Switch0` a `Switch3` (conexão das estações de trabalho por setor)
