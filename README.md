@@ -66,7 +66,7 @@ Esta atividade integrada consolida o aprendizado prático de estruturação, con
 
 ## Tecnologias Utilizadas
 
-- Cisco Packet Tracer 9.0.1
+- Cisco Packet Tracer 9.0.1.8
 - Cisco IOS (switches Layer 2 e Layer 3)
 - Protocolos: LACP (EtherChannel), roteamento Inter-VLAN, DHCP/DNS, ACL estendida
 
