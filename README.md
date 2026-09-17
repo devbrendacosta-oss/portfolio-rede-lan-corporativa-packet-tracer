@@ -78,9 +78,6 @@ A organização da rede segue uma hierarquia estruturada em camadas para otimiza
 - **Camada de Acesso:** conecta os dispositivos finais às respectivas VLANs departamentais por meio de portas de acesso dedicadas.
 - **Mapa de topologia:** a disposição física e lógica está representada no arquivo de simulação `Topologia_InovaTech_Grupo5.pkt`, evidenciando as interconexões por cabos Gigabit Ethernet e Fast Ethernet.
 
-![Topologia da rede](<img width="1069" height="710" alt="Captura de tela 2026-09-10 160749" src="https://github.com/user-attachments/assets/0aa09bce-312c-4ecb-8e2b-8bd1cea59646" />
-)
-
 ### Detalhes técnicos de configuração
 
 - **Roteamento Inter-VLAN:** ativado no núcleo através do comando `ip routing` e interfaces virtuais (`interface vlan X`) configuradas com os respectivos endereços de gateway.
@@ -141,21 +138,11 @@ Comandos do Cisco IOS utilizados para auditar e verificar o estado operacional d
 - `show etherchannel summary` — valida a operação da agregação de links via LACP entre os switches de acesso e o núcleo, assegurando as flags SU (Layer 2/In-use).
 - `show ip route` — apresenta a tabela de roteamento do switch Core, evidenciando as redes diretamente conectadas (C) para habilitar o roteamento Inter-VLAN.
 
-![Saída do comando show vlan brief](<img width="769" height="706" alt="show vlan brief" src="https://github.com/user-attachments/assets/4bd493a1-3552-4b1b-831b-329d9b62826c" />)
-
-![Saída do comando show etherchannel summary](<img width="830" height="714" alt="show etherchannel summary" src="https://github.com/user-attachments/assets/ad4defb3-f65b-4b01-9ea1-f951e27d3bdb" />
-)
-
-![Saída do comando show ip route](<img width="837" height="719" alt="show ip route" src="https://github.com/user-attachments/assets/ed6733f5-02e3-45e8-916f-11733b8b310e" />
-)
-
 ---
 
 ## Exemplos de Uso / Evidências de Validação
 
 **Validação do DHCP:** ao configurar uma estação final para obter IP via DHCP, ela recebe automaticamente o endereço da sub-rede correspondente à sua VLAN.
-
-![Confirmação do recebimento dinâmico de IP via DHCP](<img width="943" height="708" alt="Confirmação DHCP" src="https://github.com/user-attachments/assets/9ddb6dbb-7d2b-453f-b0a6-ab19448f9414" />)
 
 **Validação do roteamento Inter-VLAN (VLAN 10 → VLAN 30):**
 ```
@@ -169,8 +156,6 @@ Reply from 192.168.30.1: bytes=32 time<1ms TTL=255
 Ping statistics for 192.168.30.1:
     Packets: Sent = 4, Received = 4, Lost = 0 (0% loss)
 ```
-
-![Teste de comunicação permitida VLAN 10 para VLAN 30](<img width="566" height="326" alt="Captura de tela 2026-09-10 014356" src="https://github.com/user-attachments/assets/6d7ebbcb-733d-44a8-8b13-7d2d93b115c0" />) 
 
 **Validação da ACL de segurança (VLAN 40 → VLAN 30, tráfego bloqueado):**
 ```
@@ -187,8 +172,6 @@ Ping statistics for 192.168.30.100:
     Packets: Sent = 4, Received = 0, Lost = 4 (100% loss)
 ```
 
-![Teste de isolamento por ACL VLAN 40 para VLAN 30](<img width="740" height="687" alt="Isolamento por ACL VLAN 40 para VLAN 30" src="https://github.com/user-attachments/assets/c33c84ab-75ff-4a2a-9528-5433a234a776" />)
-
 ---
 
 ## Estrutura do Projeto
@@ -199,7 +182,22 @@ InovaTech_Grupo5/
 ├── README.md                          # Documentação estruturada do projeto
 └── Relatorio_Tecnico_InovaTech.pdf    # Relatório técnico formal com evidências e capturas de tela
 ```
-
+---
+## Capturas de Tela
+ 
+As capturas de tela já estão referenciadas ao longo do README, nos pontos correspondentes a cada etapa. Para que apareçam corretamente, crie uma pasta `screenshots/` na raiz do repositório e salve cada imagem exatamente com o nome de arquivo indicado abaixo:
+ 
+| Print | Onde aparece no README | Nome do arquivo |
+|---|---|---|
+| Topologia lógica da rede (Cisco Packet Tracer) | Seção "Arquitetura da Solução" | `<img width="1069" height="710" alt="Captura de tela 2026-09-10 160749" src="https://github.com/user-attachments/assets/2efeb727-ef6e-4e30-9a95-e5f5b51fd35a" />` |
+| Confirmação do recebimento dinâmico de IP via DHCP | Seção "Exemplos de Uso / Evidências de Validação" | `<img width="943" height="708" alt="Captura de tela 2026-09-10 161008" src="https://github.com/user-attachments/assets/1ca5b0df-22f7-443f-8ec3-e1a740bae331" />` |
+| Teste de comunicação permitida (VLAN 10 → VLAN 30) | Seção "Exemplos de Uso / Evidências de Validação" | `screenshots/ping-vlan10-vlan30.png` |
+| Teste de isolamento por ACL (VLAN 40 → VLAN 30) | Seção "Exemplos de Uso / Evidências de Validação" | `screenshots/acl-vlan40-vlan30.png` |
+| Saída de `show vlan brief` | Seção "Comandos de Auditoria" | `screenshots/show-vlan-brief.png` |
+| Saída de `show etherchannel summary` | Seção "Comandos de Auditoria" | `screenshots/show-etherchannel-summary.png` |
+| Saída de `show ip route` | Seção "Comandos de Auditoria" | `screenshots/show-ip-route.png` |
+ 
+---
 ## Relatório dos Entregáveis Obrigatórios
 
 | Entregável | Conteúdo |
